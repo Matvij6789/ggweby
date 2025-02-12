@@ -8,3 +8,136 @@
     --p-color:#757575;
 
 }
+
+.hero-title{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    Content
+    width: 1600px;
+height: 600px;
+flex-shrink: 0;
+background: #2F303A;
+}
+
+
+.hero-button{
+    color: #FFF;
+
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.87;
+letter-spacing: 0.96px;
+
+
+width: 216px;
+height: 50px;
+flex-shrink: 0;
+
+
+border-radius: 4px;
+background: #2196F3;
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.logo-link{
+    color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+
+}
+
+.logo-item{
+    color: #212121;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+
+.logo-item:hover{
+    color: #2196F3;
+
+
+}
+
+
+.work-desc{
+    color: #757575;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+
+
+
+
+
+.work-pic{
+    color: #212121;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+
+
+
+.img-item{
+    width: 370px;
+height: 294px;
+flex-shrink: 0;
+}
+
+
+
+
+
+.ne-link{
+    color: rgba(255, 255, 255, 0.60);
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.42px;
+background: #2F303A;
+width: 1600px;
+height: 252px;
+flex-shrink: 0;
+Style
+
+
+
+}
