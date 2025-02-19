@@ -1,7 +1,7 @@
 :root {
     --accent-color:#2196F3;
     --logo-color:#000;
-    --h1-color:#FFFFFF;
+    --h1-color:#FFF;
     --button-color:#2196F3;
     --h2-color:#212121;
 
@@ -9,8 +9,13 @@
 
 }
 
+body{
+    font-family: Roboto;
+}
+
+
 .hero-title{
-    color: #FFF;
+    color: var(--h1-color);
 
     text-align: center;
     font-family: Roboto;
@@ -29,7 +34,7 @@ background: #2F303A;
 
 
 .hero-button{
-    color: #FFF;
+    color: var(--h1-color);
 
 text-align: center;
 font-family: Roboto;
@@ -46,14 +51,14 @@ flex-shrink: 0;
 
 
 border-radius: 4px;
-background: #2196F3;
+background: var(--accent-color);
 
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 
 .logo-link{
-    color: #000;
+    color: var(--logo-color);
 font-family: Raleway;
 font-size: 26px;
 font-style: normal;
@@ -64,7 +69,7 @@ letter-spacing: 0.78px;
 }
 
 .logo-item{
-    color: #212121;
+    color: var(--h2-color);
 
 font-family: Roboto;
 font-size: 14px;
@@ -76,14 +81,14 @@ letter-spacing: 0.28px;
 
 
 .logo-item:hover{
-    color: #2196F3;
+    color: var(--accent-color);
 
 
 }
 
 
 .work-desc{
-    color: #757575;
+    color: var(--p-color);
 
     font-family: Roboto;
     font-size: 14px;
@@ -99,7 +104,7 @@ letter-spacing: 0.28px;
 
 
 .work-pic{
-    color: #212121;
+    color: var(--h2-color);
 
     font-family: Roboto;
     font-size: 14px;
@@ -132,7 +137,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.42px;
-background: #2F303A;
+background: var(--p-color);
 width: 1600px;
 height: 252px;
 flex-shrink: 0;
