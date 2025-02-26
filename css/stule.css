@@ -1,148 +1,108 @@
 :root {
-    --accent-color:#2196F3;
-    --logo-color:#000;
-    --h1-color:#FFF;
-    --button-color:#2196F3;
-    --h2-color:#212121;
+  --accent-color: #2196f3;
+  --logo-color: #000;
+  --h1-color: #fff;
+  --button-color: #2196f3;
+  --h2-color: #212121;
 
-    --p-color:#757575;
-
+  --p-color: #757575;
+  --futer-bagraund: #2f303a;
 }
 
-body{
-    font-family: Roboto;
+body {
+  font-family: Roboto;
 }
 
-
-.hero-title{
-    color: var(--h1-color);
-
-    text-align: center;
-    font-family: Roboto;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 1.36;
-    letter-spacing: 2.64px;
-    text-transform: uppercase;
-    Content
-    width: 1600px;
-height: 600px;
-flex-shrink: 0;
-background: #2F303A;
+.logo-link {
+  color: var(--logo-color);
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
 }
 
+.logo-color {
+  color: var(--accent-color);
+}
 
-.hero-button{
-    color: var(--h1-color);
+.logo-pages {
+  color: var(--h2-color);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+}
+
+.logo-pages:hover {
+  color: var(--accent-color);
+}
+
+.logo-contakt {
+  color: var(--p-color);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+}
+
+.logo-contakt:hover {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--futer-bagraund);
+}
+
+.hero-title {
+  color: var(--h1-color);
+
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--h1-color);
+
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+  border-radius: 4px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.work-pic {
+  color: var(--h2-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.work-desc {
+  color: var(--p-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+.engage-title{
+    color: var(--h2-color);
 
 text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
+font-size: 36px;
 font-weight: 700;
-line-height: 1.87;
-letter-spacing: 0.96px;
-
-
-width: 216px;
-height: 50px;
-flex-shrink: 0;
-
-
-border-radius: 4px;
-background: var(--accent-color);
-
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
-
-.logo-link{
-    color: var(--logo-color);
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.38;
-letter-spacing: 0.78px;
-
-}
-
-.logo-item{
-    color: var(--h2-color);
-
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-}
-
-
-.logo-item:hover{
-    color: var(--accent-color);
-
-
-}
-
-
-.work-desc{
-    color: var(--p-color);
-
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.42px;
-}
-
-
-
-
-
-
-.work-pic{
-    color: var(--h2-color);
-
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.14;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-}
-
-
-
-
-.img-item{
-    width: 370px;
-height: 294px;
-flex-shrink: 0;
-}
-
-
-
-
-
-.ne-link{
-    color: rgba(255, 255, 255, 0.60);
-
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.71;
-letter-spacing: 0.42px;
-background: var(--p-color);
-width: 1600px;
-height: 252px;
-flex-shrink: 0;
-Style
-
-
-
+line-height: 1.16;
+letter-spacing: 1.08px;
 }
