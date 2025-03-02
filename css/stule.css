@@ -97,74 +97,103 @@ body {
   line-height: 1.71;
   letter-spacing: 0.42px;
 }
-.engage-title{
-    color: var(--h2-color);
-
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 1.08px;
-}
-
-
-.team-pic{
+.engage-title {
   color: var(--h2-color);
 
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.18;
-letter-spacing: 0.48px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 1.08px;
 }
 
-
-.team-desc{
-  color: #757575;
-
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.18;
-letter-spacing: 0.48px;
-}
-
-
-.button-button{
+.team-pic {
   color: var(--h2-color);
 
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.62; 
-letter-spacing: 0.48px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.48px;
 }
 
-
-.button-title{
-  color: var(--h2-color);
-
-font-family: Roboto;
-font-size: 18px;
-font-weight: 700;
-line-height: 2; 
-letter-spacing: 1.08px;
-}
-
-
-.button-text{
+.team-desc {
   color: var(--p-color);
 
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.87; 
-letter-spacing: 0.48px;
-Content
-
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.48px;
 }
 
+.button-button {
+  color: var(--h2-color);
 
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.48px;
+}
+
+.button-title {
+  color: var(--h2-color);
+
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 1.08px;
+}
+
+.button-text {
+  color: var(--p-color);
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
+  letter-spacing: 0.48px;
+}
+
+.ne-linke {
+  color: var(--logo-color);
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
+}
+
+.ne-color {
+  color: var(--accent-color);
+}
+
+.ne-linkee {
+  color: var(--h1-color);
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.ne-link {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.ne{
+  background-color: var(--futer-bagraund);
+}
