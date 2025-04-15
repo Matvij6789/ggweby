@@ -17,9 +17,8 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  display: flex;
-  align-items: center;
-  gap: 37px;
+
+ 
 }
 
 
@@ -32,7 +31,7 @@ body {
   padding-bottom: 25px;
 }
 
-.logo-link {
+.logo-link{
   color: var(--logo-color);
   font-family: Raleway;
   font-size: 26px;
@@ -40,7 +39,19 @@ body {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
+margin-right: 93px;
 }
+
+  .logo-items{
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+  }
+
+  .logo-list{
+    display: flex;
+    gap: 50px;
+  }
 
 .logo-color {
   color: var(--accent-color);
