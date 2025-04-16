@@ -18,8 +18,16 @@
   margin-right: auto;
   margin-left: auto;
 
- 
+
 }
+
+.logo-heder{
+  display: flex;
+  align-items: center;
+}
+
+
+
 
 
 body {
@@ -87,6 +95,7 @@ margin-right: 93px;
   background-color: var(--futer-bagraund);
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 .hero-title {
@@ -98,6 +107,9 @@ margin-right: 93px;
   line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -111,12 +123,26 @@ margin-right: 93px;
   border-radius: 4px;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 32px;
+padding-left: 32px;
+border: none;
+
 }
 
 .work{
   padding-top: 94px;
   padding-bottom: 94px;
+  
 }
+
+.work-list{
+  display: flex;
+  gap: 30px;
+}
+
+
 
 .work-pic {
   color: var(--h2-color);
@@ -125,6 +151,7 @@ margin-right: 93px;
   line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .work-desc {
@@ -139,6 +166,12 @@ margin-right: 93px;
   padding-bottom: 94px;
 }
 
+.engage-list{
+  display: flex;
+  gap: 30px;
+}
+
+
 .engage-title {
   color: var(--h2-color);
 
@@ -147,6 +180,7 @@ margin-right: 93px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
+  margin-bottom: 50px;
 }
 
 .team{
@@ -154,6 +188,26 @@ margin-right: 93px;
   padding-bottom: 94px;
   background-color: var(--team-bg);
 }
+
+
+.team-title{
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.team-img{
+  width: 270px;
+  height: 260px;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.team-list{
+  display: flex;
+  
+}
+
 
 .team-pic {
   color: var(--h2-color);
@@ -164,6 +218,7 @@ margin-right: 93px;
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.48px;
+margin-bottom: 10px;
 }
 
 .team-desc {
@@ -219,14 +274,26 @@ margin-right: 93px;
   padding-top: 60px;
 }
 
+
+
+
+.ne-item{
+  margin-bottom: 9px;
+}
+
 .ne-linke {
-  color: var(--logo-color);
+  color: #FFF;
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
+  
+}
+
+.ne-itemm{
+  margin-bottom: 20px;
 }
 
 .ne-color {
