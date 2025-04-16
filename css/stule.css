@@ -193,19 +193,33 @@ border: none;
 .team-title{
   text-align: center;
   margin-bottom: 50px;
+  color: #212121;
 
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
 
 .team-img{
   width: 270px;
   height: 260px;
   gap: 30px;
-  margin-bottom: 30px;
+
+}
+
+.team-box{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--h1-color);
 }
 
 .team-list{
   display: flex;
-  
+  gap: 30px;
 }
 
 
@@ -279,6 +293,10 @@ margin-bottom: 10px;
 
 .ne-item{
   margin-bottom: 9px;
+}
+
+.ne-item:last-child{
+  margin-bottom: 0;
 }
 
 .ne-linke {
