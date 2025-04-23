@@ -27,9 +27,7 @@
 }
 
 
-
-
-
+ 
 body {
   font-family: Roboto;
 }
@@ -251,15 +249,44 @@ margin-bottom: 10px;
   padding-top: 94px;
 }
 
+.button-list{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
+.button-items{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.button-itm{
+  outline: 1px solid #EEE;
+}
+
+.button-wrap{
+  padding: 20px 24px;
+}
+
+
 .button-button {
   color: var(--h2-color);
-
+border: none;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.48px;
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+
+.button-button:hover{
+  color: var(--h1-color);
+  background-color: var(--accent-color);
 }
 
 .button-title {
