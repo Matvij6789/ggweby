@@ -260,11 +260,12 @@ margin-bottom: 10px;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 60px)3);
+  
 }
 
 .button-itm{
   outline: 1px solid #EEE;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .button-img{
